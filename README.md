@@ -27,7 +27,7 @@
 <p align="center">
   <a href="#%EF%B8%8F-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-instalação-execução-e-desenvolvimento">Instalação, execução e desenvolvimento</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalação-execução-e-desenvolvimento">Instalação e Execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
 
@@ -35,92 +35,36 @@
   <a href="https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Tobehero%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fengividal%2Ftobehero%2Fmaster%2Finsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-<img alt="Layout" src=".github/tema-switcher.gif" />
+<img alt="Layout" width="900px" src=".github/tema-switcher.gif" />
 
 ## 📋 Projeto
 
-Aplicação completa utilizando a Stack do Javascript. O objetivo da aplicação é permitir que ONGs possam cadastrar casos a serem visualizados pelo possíveis voluntários que queiram colaborar. 
-
-O Frontend Web permite o cadastro de novas ONGs e novos Casos. Os casos possuem detalhes para auxiliar quem tiver interesse em ajudar e entrar em contato com as ONGs.
-
-O aplicativo é voltado para o usuário final, possível voluntário, que poderá visualizar todos os casos disponíveis e entrar em contato com a organização que criou o caso via e-mail ou whatsapp.  
+ Esta aplicação foi desenvolvida como teste para implementar um botão Switcher no tema de um site, alternando entre o modo Dark/Light.
 
 ## 🔝 Tecnologias
 
 Esta aplicação foi desenolvida com as tecnologias abaixo:
 
-- [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
-- [Celebrate](https://github.com/arb/celebrate)
-- [SQLite](https://www.sqlite.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Nodemon](https://nodemon.io/)
-- [React Navigation](https://reactnavigation.org/)
-- [React Icons](https://react-icons.netlify.com/#/)
-- [Axios](https://github.com/axios/axios)
 
-## 💻 Instalação e execução
+
+## 💻 Instalação e Execução
 
 Faça um clone do repositório através do [GitHub Desktop](https://desktop.github.com/) ou linha de comando `git clone https://github.com/kleytonsolinho/theme-switcher.git`.
 
-### Pré-requisitos
-
-- [Node.js](https://nodejs.org/en/)
-- [SQLite](https://www.sqlite.org/)
-- [Yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
-- [Expo](https://expo.io/)
-
-### Backend
-
-- A partir da raiz do projeto, entre na pasta rodando `cd backend`;
-- Rode `yarn` para instalar sua dependências;
-- Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomnia](#insomniaButton);
-
-### Web
-
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
-
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd web`;
-- Rode `yarn` para instalar as dependências;
-- Rode `yarn start` para iniciar o client web;
-
-### Mobile
-
-_ps: Antes de executar, lembre-se de iniciar o backend deste projeto_
-
-- A partir da raiz do projeto, entre na pasta do frontend web rodando `cd mobile`;
-- Rode `yarn` para instalar as dependências;
-- Rode `yarn start` ou `expo start` para iniciar o bundle com o expo;
-- Caso vá utilizar seu smartphone, com o app do expo escaneia o QRCODE;
-
-## ❤️ Como contribuir
-
-**Faça um fork deste repositório**
-
-<!-- - Faça um fork desse repositório;
-- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
-- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
-- Faça push para a sua branch: `git push origin minha-feature`; -->
-
 ```bash
-# Clone o seu fork
-$ git clone url-do-seu-fork && cd tobehero
+# Clone this repository
+$ git clone https://github.com/kleytonsolinho/theme-switcher
 
-# Crie uma branch com sua feature
-$ git checkout -b minha-feature
+# Go into the repository
+$ cd theme-switcher
 
-# Faça o commit das suas alterações
-$ git commit -m 'feat: Minha nova feature'
+# Install dependencies
+$ yarn install
 
-# Faça o push para a sua branch
-$ git push origin minha-feature
+# Run the app
+$ yarn start
 ```
-
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
 ## 📝 Licença
 
