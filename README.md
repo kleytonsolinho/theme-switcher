@@ -1,6 +1,6 @@
-<h3 align="center">
-  Projeto para trocar cor da plataforma light/dark.
-</h3>
+<h1 align="center">
+  Projeto Theme-Switcher
+</h1>
 
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kleytonsolinho/theme-switcher">
@@ -31,11 +31,7 @@
   <a href="#-licença">Licença</a>
 </p>
 
-<p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Tobehero%20API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fengividal%2Ftobehero%2Fmaster%2Finsomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
-</p>
-
-<img alt="Layout" width="900px" src=".github/tema-switcher.gif" />
+<img alt="Layout" width="600px" src=".github/tema-switcher.gif" />
 
 ## 📋 Projeto
 
@@ -69,10 +65,3 @@ $ yarn start
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/kleytonsolinho/theme-switcher/blob/master/LICENSE) para mais detalhes.
-
----
-
-## 🙏 Agradecimentos 
-
-- CTO Rocketseat [Diego Fernandes](https://github.com/diego3g)
-- Rocketseat pela semana de Aprendizagem [Rocketseat](https://github.com/rocketseat)
