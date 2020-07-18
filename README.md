@@ -31,7 +31,9 @@
   <a href="#-licença">Licença</a>
 </p>
 
-<img alt="Layout" width="600px" src=".github/tema-switcher.gif" />
+<p aling="center">
+  <img alt="Layout" width="400px" src=".github/tema-switcher.gif" />
+</p>
 
 ## 📋 Projeto
 
