@@ -32,7 +32,7 @@
 </p>
 
 <p aling="center">
-  <img alt="Layout" width="400px" src=".github/tema-switcher.gif" />
+  <img alt="Layout" aling="center" width="400px" src=".github/tema-switcher.gif" />
 </p>
 
 ## 📋 Projeto
